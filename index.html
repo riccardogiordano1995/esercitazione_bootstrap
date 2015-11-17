@@ -5,17 +5,35 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 
+      <style type="text/css">
+      	.red {
+			background-color: red;
+		}
+		.blue {
+			background-color: blue;
+		}
+		.row {
+			background-color: white;
+		}
+      </style>
+
 	<title></title>
 </head>
 <body>
+	<div class="container">
+	<div class="row">
+		<div class="col-lg-6 red">A</div>
+		<div class="col-lg-6 blue">A</div>
 
-	<div style="background-color: orange;" class="container">
-  ...
 	</div>
+</div>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-6 blue">B</div>
+		<div class="col-lg-6 red">B</div>
+	</div>
+</div>
 
-	<div style="background-color: blue;" class="container-fluid">
-  ...
-	</div>
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
